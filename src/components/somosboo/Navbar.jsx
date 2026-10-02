@@ -34,7 +34,7 @@ export default function Navbar() {
       <nav className="mx-auto max-w-[1400px] px-5 sm:px-8 lg:px-12 h-16 sm:h-20 flex items-center justify-between">
         <a href="#inicio" aria-label="Somos Boo Studio — Inicio" className="shrink-0">
           <img
-            src={`${import.meta.env.BASE_URL}images/logo1.png`}
+            src="/images/logo1.png"
             alt="Somos Boo Studio"
             className="h-12 w-12 object-contain sm:h-14 sm:w-14"
           />

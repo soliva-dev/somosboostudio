@@ -10,7 +10,7 @@ import Home from '@/pages/Home';
 function App() {
   return (
     <QueryClientProvider client={queryClientInstance}>
-      <Router basename={import.meta.env.BASE_URL}>
+      <Router>
         <ScrollToTop />
         <Routes>
           <Route path="/" element={<Home />} />
